@@ -1,0 +1,76 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Cambiado a Roboto */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #d3d3d3; /* Fondo gris claro */
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: #333333; /* Cambiado a gris oscuro para el contenido */
+    color: #fff; /* Texto blanco para contraste */
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px; /* Espaciado interno */
+    border: 2px solid #fff; /* Borde blanco */
+    border-radius: 5px; /* Esquinas redondeadas */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave */
+}
+
+nav ul li a:hover {
+    background-color: #fff; /* Cambiar fondo al pasar el mouse */
+    color: #333; /* Cambiar color del texto al pasar el mouse */
+}
+
