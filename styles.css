@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #d3d3d3; /* Fondo gris claro */
+    border-radius: 100px;
 }
 
 header {
@@ -11,6 +12,7 @@ header {
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    border-radius: 50px;
 }
 
 header h1 {
@@ -39,6 +41,7 @@ main {
     background: #333333; /* Cambiado a gris oscuro para el contenido */
     color: #fff; /* Texto blanco para contraste */
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 50px;
 }
 
 
@@ -54,6 +57,7 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    border-radius: 50px;
 }
 
 footer a {
@@ -67,6 +71,7 @@ nav ul li a {
     border: 2px solid #fff; /* Borde blanco */
     border-radius: 5px; /* Esquinas redondeadas */
     transition: background-color 0.3s, color 0.3s; /* Transición suave */
+    border-radius: 50px;
 }
 
 nav ul li a:hover {
